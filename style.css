@@ -1,0 +1,24 @@
+*::selection {
+    background-color: #423f3f;
+}
+
+body[theme="black"] {
+    background-color: #000;
+    color: #fff;
+}
+
+body[theme="black"] .section {
+    background-color: #000;
+    color: #fff;
+}
+
+.vdodiv {
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+
+.button1:hover {
+    background-color: #474a4e;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05); 
+    transform: ease-in 1s;
+}
